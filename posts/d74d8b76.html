@@ -614,16 +614,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo-blog-lucky/">
-                                <span class="chip bg-color">hexo-blog-lucky</span>
+                            <a href="/tags/Hexo/">
+                                <span class="chip bg-color">Hexo</span>
                             </a>
                         
                             <a href="/tags/%E5%8D%9A%E5%AE%A2/">
                                 <span class="chip bg-color">博客</span>
                             </a>
                         
-                            <a href="/tags/Hexo/">
-                                <span class="chip bg-color">Hexo</span>
+                            <a href="/tags/hexo-blog-lucky/">
+                                <span class="chip bg-color">hexo-blog-lucky</span>
                             </a>
                         
                     </div>
@@ -1120,7 +1120,7 @@ featureImages:
 - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/%E7%92%80%E7%92%A8%E6%98%9F%E7%A9%BA/14.jpg
 - https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/galleries/%E7%92%80%E7%92%A8%E6%98%9F%E7%A9%BA/01.jpg<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="13-1-主页页顶添加渐变颜色"><a href="#13-1-主页页顶添加渐变颜色" class="headerlink" title="13.1 主页页顶添加渐变颜色"></a>13.1 主页页顶添加渐变颜色</h4><p>修改网站预加载颜色为渐变色 打开文件themes/hexo-theme-matery-2.0.0/layout/_partial/index-cover.ejs 找到如下内容位置</p>
+<h4 id="13-主页页顶添加渐变颜色并添加粒子上升特效"><a href="#13-主页页顶添加渐变颜色并添加粒子上升特效" class="headerlink" title="13. 主页页顶添加渐变颜色并添加粒子上升特效"></a>13. 主页页顶添加渐变颜色并添加粒子上升特效</h4><p>修改网站预加载颜色为渐变色 打开文件themes/hexo-theme-matery-2.0.0/layout/_partial/index-cover.ejs 找到如下内容位置</p>
 <pre class="line-numbers language-none"><code class="language-none">&lt;div class="carousel-item red white-text bg-cover about-cover"&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 <p>将其修改并添加如下代码</p>
@@ -1181,20 +1181,20 @@ featureImages:
             init();
         &lt;/script&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<h4 id="13-2-主页页顶添加动态气泡"><a href="#13-2-主页页顶添加动态气泡" class="headerlink" title="13.2 主页页顶添加动态气泡"></a>13.2 主页页顶添加动态气泡</h4><p>添加粒子上升特效</p>
+<p>添加粒子上升特效</p>
 <p>打开文件 themes/hexo-theme-matery-2.0.0/layout/_partial/bg-cover-content.ejs</p>
 <p>将最后一段代码修改</p>
-<pre class="line-numbers language-none"><code class="language-none">       &lt;% } %&gt;&lt;% if (theme.banner.enable) { %&gt;
-    &lt;script&gt;
-        // 每天切换 banner 图.  Switch banner image every day.
-        var bannerUrl = "&lt;%- theme.jsDelivr.url %&gt;&lt;%-    url_for('/medias    /banner/') %&gt;" + new Date().getDay() + '.jpg';
-        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-    &lt;/script&gt;
-    &lt;% } else { %&gt;
-    &lt;script&gt;
-+      $('.bg-cover').css('background-image', 'linear-gradient(to right,    + #64b3f4 0%, #00ecbc 100%)');
-    &lt;/script&gt;
-    &lt;% } %&gt;
+<pre class="line-numbers language-none"><code class="language-none">   &lt;% } %&gt;&lt;% if (theme.banner.enable) { %&gt;
+   &lt;script&gt;
+    // 每天切换 banner 图.  Switch banner image every day.
+      var bannerUrl = "&lt;%- theme.jsDelivr.url %&gt;&lt;%-url_for('/medias/banner/') %&gt;" + new Date().getDay() + '.jpg';
+      $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+  &lt;/script&gt;
+  &lt;% } else { %&gt;
+  &lt;script&gt;
++  $('.bg-cover').css('background-image', 'linear-gradient(to right,#64b3f4  0%, #00ecbc 100%)');
+  &lt;/script&gt;
+  &lt;% } %&gt;
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <p>效果展示</p>
@@ -1272,16 +1272,16 @@ featureImages:
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo-blog-lucky/">
-                                    <span class="chip bg-color">hexo-blog-lucky</span>
+                                <a href="/tags/Hexo/">
+                                    <span class="chip bg-color">Hexo</span>
                                 </a>
                             
                                 <a href="/tags/%E5%8D%9A%E5%AE%A2/">
                                     <span class="chip bg-color">博客</span>
                                 </a>
                             
-                                <a href="/tags/Hexo/">
-                                    <span class="chip bg-color">Hexo</span>
+                                <a href="/tags/hexo-blog-lucky/">
+                                    <span class="chip bg-color">hexo-blog-lucky</span>
                                 </a>
                             
                         </div>
@@ -1791,12 +1791,12 @@ new Valine({
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">博客</span>
-                    </a>
-                    
                     <a href="/tags/Hexo/">
                         <span class="chip bg-color">Hexo</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">博客</span>
                     </a>
                     
                 </div>
@@ -2089,7 +2089,7 @@ new Valine({
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">32k</span>&nbsp;字
+                class="white-color">26.5k</span>&nbsp;字
             
             
             
