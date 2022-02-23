@@ -65,13 +65,6 @@
   </url>
   
   <url>
-    <loc>http://ssdgxlin.github,io/posts/d74d8b76.html</loc>
-    
-    <lastmod>2022-02-11</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ssdgxlin.github,io/posts/4b3510a4.html</loc>
     
     <lastmod>2022-02-11</lastmod>
@@ -313,13 +306,6 @@
   
   <url>
     <loc>http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-02-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ssdgxlin.github,io/tags/hexo-blog-lucky/</loc>
     <lastmod>2022-02-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
