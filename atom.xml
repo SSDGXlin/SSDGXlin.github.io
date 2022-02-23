@@ -6,7 +6,7 @@
   <link href="http://ssdgxlin.github,io/atom.xml" rel="self"/>
   
   <link href="http://ssdgxlin.github,io/"/>
-  <updated>2022-02-11T02:24:57.181Z</updated>
+  <updated>2022-02-23T00:55:36.614Z</updated>
   <id>http://ssdgxlin.github,io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VSCode如何通过快捷键操作光标</title>
+    <link href="http://ssdgxlin.github,io/posts/412d8d47.html"/>
+    <id>http://ssdgxlin.github,io/posts/412d8d47.html</id>
+    <published>2022-02-23T00:51:44.000Z</published>
+    <updated>2022-02-23T00:55:36.614Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li><p>通过home和end键移动光标到本行非空字符的开头和结尾；</p><p>通过ctrl+home和ctrl+end移动光标到整个文件的开头和结尾。</p><p><img src="https://exp-picture.cdn.bcebos.com/2db6c1b2dc19ce2c0d26316b7fdca039121f1196.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p><p><img src="https://exp-picture.cdn.bcebos.com/58021a0148fe1e4239562b64c2299a8838130396.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p></li><li><p>2</p><p>通过Ctrl+左键点击，或者F12（笔记本要按下Fn），会跳转光标到符号定义处。</p><p><img src="https://exp-picture.cdn.bcebos.com/de9bfa3b3b8602213c6abce3d8bbf82065fb7296.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p></li><li><p>3</p><p>通过点击左侧小三角，或者ctrl+shift+[ 和 ctrl+shift+] 来展开或者折叠一个区域。</p><p><img src="https://exp-picture.cdn.bcebos.com/e996472ae3efe078960cf003b96c576698cf6596.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p></li><li><p>4</p><p>通过快捷键ctrl+K ctrl+0 (数字0) 来折叠所有的代码；</p><p>通过ctrl+K ctrl+J 来展开所有的代码。</p><p><img src="https://exp-picture.cdn.bcebos.com/32a127723d03bbeaafbb1ffdea43d7d449315496.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p><p><img src="https://exp-picture.cdn.bcebos.com/1d735518512c8cf1479a0986c384cde34a2c4696.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p></li><li><p>5</p><p>shift+end 以及 shift+home，在移动光标的同时，选择指定区段。和鼠标三连击不同，三连击是选择整行。</p><p><img src="https://exp-picture.cdn.bcebos.com/7d34fbf4fcf5ee0d91f38562f96b0ce264e7ba96.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p></li><li><p>6</p><p>ctrl+delete，删除光标后面的那个词（token）。如图，删除了Python这个词。</p><p><img src="https://exp-picture.cdn.bcebos.com/bff8683e21c2bbd656ed425d116186254093ae96.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p></li><li><p>7</p><p>从光标位置开始，通过 shift+alt+左或者右，来缩小或者扩大选择范围。比如从单词扩展到一段内容，扩展到一个region。</p><p><img src="https://exp-picture.cdn.bcebos.com/555acf0ff2260d9af333382c622abab84340a596.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p></li><li><p>8</p><p>如果要同时选中多行问本同时编辑，先点击左上角，然后alt+shift+点击右下角。</p><p>ctrl+alt+上下键则可以扩展多行编辑的光标。</p></li></ol><p>   <img src="https://exp-picture.cdn.bcebos.com/c255efc595ee41c17b1a83e68d88912ca4ca9b96.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p><p>   <img src="https://exp-picture.cdn.bcebos.com/91091efc77f7980e891d6cc4d4db3620b83a9196.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p><ol start="9"><li><p>9</p><p>选中一个范围（如一个单词），ctrl+shift+L会同时选中所有匹配，可以一起编辑。</p><p><img src="https://exp-picture.cdn.bcebos.com/8974c38a59de45076a3c17c55e413a8ca7088596.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p></li><li><p>10</p><p>ctrl+U，让光标回到上一个状态/位置。但是这个上一个位置是本文件而言，不能跨文件。</p><p>如果要跨越文件回到上一个光标位置，使用 alt+左右键。</p><p><img src="https://exp-picture.cdn.bcebos.com/9a8fd9f88a775ddd6671caffa427e7ef2906f996.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p></li><li><p>11</p><p>通过ctrl+K R快捷键，打开文件所在文件夹。</p><p>一个很接近的快捷键是 ctrl+K ctrl+R，但是这个快捷键是打开快捷键说明。</p><p><img src="https://exp-picture.cdn.bcebos.com/025d87c0affce186d81287c71f1fbee435daeb96.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p><p><img src="https://exp-picture.cdn.bcebos.com/979906196120a7cd0550d44789b375d7987bdc96.jpg?x-bce-process=image/resize,m_lfit,w_500,limit_1/format,f_jpg/quality,q_80" alt="vscode 如何通过快捷键操作光标"></p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="编程篇" scheme="http://ssdgxlin.github,io/categories/%E7%BC%96%E7%A8%8B%E7%AF%87/"/>
+    
+    
+    <category term="VSCode" scheme="http://ssdgxlin.github,io/tags/VSCode/"/>
+    
+    <category term="快捷键" scheme="http://ssdgxlin.github,io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>阿里云服务器部署Hexo博客</title>
@@ -36,9 +62,9 @@
     <category term="博客篇" scheme="http://ssdgxlin.github,io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="Hexo" scheme="http://ssdgxlin.github,io/tags/Hexo/"/>
+    
+    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="阿里云" scheme="http://ssdgxlin.github,io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
     
@@ -82,9 +108,9 @@
     <category term="博客篇" scheme="http://ssdgxlin.github,io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="Hexo" scheme="http://ssdgxlin.github,io/tags/Hexo/"/>
+    
+    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -105,9 +131,9 @@
     <category term="博客篇" scheme="http://ssdgxlin.github,io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="Hexo" scheme="http://ssdgxlin.github,io/tags/Hexo/"/>
+    
+    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -128,9 +154,9 @@
     <category term="博客篇" scheme="http://ssdgxlin.github,io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="Hexo" scheme="http://ssdgxlin.github,io/tags/Hexo/"/>
+    
+    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -151,9 +177,9 @@
     <category term="博客篇" scheme="http://ssdgxlin.github,io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="Hexo" scheme="http://ssdgxlin.github,io/tags/Hexo/"/>
+    
+    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -177,9 +203,9 @@
     <category term="博客篇" scheme="http://ssdgxlin.github,io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="Hexo" scheme="http://ssdgxlin.github,io/tags/Hexo/"/>
+    
+    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -203,11 +229,11 @@
     <category term="博客篇" scheme="http://ssdgxlin.github,io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="hexo-blog-lucky" scheme="http://ssdgxlin.github,io/tags/hexo-blog-lucky/"/>
+    <category term="Hexo" scheme="http://ssdgxlin.github,io/tags/Hexo/"/>
     
     <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="Hexo" scheme="http://ssdgxlin.github,io/tags/Hexo/"/>
+    <category term="hexo-blog-lucky" scheme="http://ssdgxlin.github,io/tags/hexo-blog-lucky/"/>
     
   </entry>
   
@@ -309,11 +335,11 @@
     <category term="博客篇" scheme="http://ssdgxlin.github,io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
     
     
-    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="Hexo" scheme="http://ssdgxlin.github,io/tags/Hexo/"/>
     
     <category term="Github" scheme="http://ssdgxlin.github,io/tags/Github/"/>
+    
+    <category term="博客" scheme="http://ssdgxlin.github,io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
